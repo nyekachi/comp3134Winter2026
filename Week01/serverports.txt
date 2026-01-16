@@ -1,0 +1,17 @@
+A. A server port is a logical endpoint used by an operating system to direct incoming traffic to a specific application or service.
+
+B. The total range for port numbers is 0 to 65,535.
+
+C. A port number is represented by a 16-bit unsigned integer, this is because the total number of possible port is 2^16 which equals 65,536(including port 0).
+
+D. The 10 Common Server Ports include :
+ 1. Port 20/21(FTP)
+ 2. Port 22 (SSH)
+ 3. Port 23
+ 4. Port 25
+ 5. Port 53
+ 6. Port 80(HTTP)
+ 7. Port 110
+ 8. Port 143
+ 9. Port 443(HTTPS)
+ 10. Port 3389
