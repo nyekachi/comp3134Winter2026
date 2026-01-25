@@ -1,0 +1,47 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap spotify.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-25 07:09 UTC
+Nmap scan report for spotify.com (35.186.224.24)
+Host is up (0.0030s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:7c5::
+rDNS record for 35.186.224.24: 24.224.186.35.bc.googleusercontent.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.02 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 spotify.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-25 07:09 UTC
+Nmap scan report for spotify.com (35.186.224.24)
+Host is up (0.0026s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:7c5::
+rDNS record for 35.186.224.24: 24.224.186.35.bc.googleusercontent.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 20-100 spotify.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-25 07:10 UTC
+Nmap scan report for spotify.com (35.186.224.24)
+Host is up (0.010s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:7c5::
+rDNS record for 35.186.224.24: 24.224.186.35.bc.googleusercontent.com
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.86 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F spotify.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-25 07:10 UTC
+Nmap scan report for spotify.com (35.186.224.24)
+Host is up (0.0021s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:7c5::
+rDNS record for 35.186.224.24: 24.224.186.35.bc.googleusercontent.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.79 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

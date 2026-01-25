@@ -1,0 +1,15 @@
+karenamadi@Karens-MacBook-Pro ~ % traceroute 159.203.10.248
+traceroute to 159.203.10.248 (159.203.10.248), 64 hops max, 40 byte packets
+ 1  10.0.0.1 (10.0.0.1)  17.315 ms  9.946 ms  6.589 ms
+ 2  pool-99-238-222-1.cpe.net.cable.rogers.com (99.238.222.1)  20.115 ms  19.736 ms  15.906 ms
+ 3  24.156.135.165 (24.156.135.165)  10.573 ms  16.769 ms  20.056 ms
+ 4  9034-cgw01.bloor.rmgt.net.rogers.com (69.63.252.250)  24.644 ms
+    ge7-0.gw01.glph.phub.net.cable.rogers.com (69.63.248.121)  29.057 ms
+    9034-cgw01.bloor.rmgt.net.rogers.com (69.63.252.250)  20.779 ms
+ 5  69.63.248.67 (69.63.248.67)  19.586 ms  15.353 ms  15.427 ms
+ 6  digitalocean-tor1-edge2.ip4.torontointernetxchange.net (206.108.35.15)  22.559 ms  20.798 ms  19.377 ms
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  *^C
+karenamadi@Karens-MacBook-Pro ~ % 

@@ -1,0 +1,12 @@
+karenamadi@Karens-MacBook-Pro ~ % ping 159.203.10.248
+PING 159.203.10.248 (159.203.10.248): 56 data bytes
+64 bytes from 159.203.10.248: icmp_seq=0 ttl=53 time=22.131 ms
+64 bytes from 159.203.10.248: icmp_seq=1 ttl=53 time=18.749 ms
+64 bytes from 159.203.10.248: icmp_seq=2 ttl=53 time=24.053 ms
+64 bytes from 159.203.10.248: icmp_seq=3 ttl=53 time=24.147 ms
+64 bytes from 159.203.10.248: icmp_seq=4 ttl=53 time=21.843 ms
+64 bytes from 159.203.10.248: icmp_seq=5 ttl=53 time=16.757 ms
+^C
+--- 159.203.10.248 ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 16.757/21.280/24.147/2.702 ms

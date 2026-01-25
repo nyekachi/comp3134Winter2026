@@ -1,0 +1,93 @@
+DOMAIN 1: SPOTIFY.COM
+Domain name: Spotify.com
+Registrar: Abion AB
+WHOIS Server: whois.abion.com
+Referral URL: http://www.abion.com/
+Created: 4/23/2006
+Updated: 7/8/2024
+Expires: 4/23/2030
+Nameservers
+Hostname	                IP Address
+ns-cloud-a1.googledomains.com	216.239.32.106
+ns-cloud-a2.googledomains.com	216.239.34.106
+ns-cloud-a3.googledomains.com	216.239.36.106
+ns-cloud-a4.googledomains.com	216.239.38.106
+dns1.p07.nsone.net	        198.51.44.7
+
+
+
+
+
+
+DOMAIN 2 : REDDIT.COM
+Domain name : reddit.com
+Registrar: MarkMonitor Inc.
+WHOIS Server: whois.markmonitor.com
+Referral: URLhttp://www.markmonitor.com
+Created: 4/29/2005
+Updated: 3/28/2024
+Expires: 4/29/2026
+Nameservers
+Hostname	          IP Address
+ns-557.awsdns-05.net	 205.251.194.45
+ns-378.awsdns-47.com	 205.251.193.122
+ns-1029.awsdns-00.org	 205.251.196.5
+ns-1887.awsdns-43.co.uk	 205.251.199.95
+
+
+
+
+
+DOMAIN 3 : GITHUB.COM
+Domain name : GitHub.com
+Registrar: MarkMonitor Inc.
+WHOIS Server: whois.markmonitor.com
+Referral URL:http://www.markmonitor.com
+Created: 10/9/2007
+Updated:9/7/2024
+Expires:10/9/2026
+Nameservers
+Hostname	          IP Address
+dns1.p08.nsone.net	 198.51.44.8
+dns2.p08.nsone.net	 198.51.45.8
+dns3.p08.nsone.net	 198.51.44.72
+dns4.p08.nsone.net	 198.51.45.72
+ns-520.awsdns-01.net	 205.251.194.8
+ns-421.awsdns-52.com	 205.251.193.165
+ns-1707.awsdns-21.co.uk	 205.251.198.171
+ns-1283.awsdns-32.org	 205.251.197.3
+
+
+
+
+DOMAIN 4: GEORGEBROWN.CA
+Domain name: georgebrown.ca
+Registrar:Webnames.ca Inc.
+WHOIS Server:whois.ca.fury.ca
+Referral URL:webnames.ca
+Created:7/4/2002
+Updated:1/15/2026
+Expires:7/4/2026
+Nameservers
+Hostname	        IP Address
+ns1.d-zone.ca	       162.219.54.2
+ns2.d-zone.ca	       162.219.55.2
+ns1.georgebrown.ca	198.96.86.35
+ns2.georgebrown.ca	198.96.87.135
+
+
+
+DOMAIN 5: YOUTUBE.COM
+Domain name: YouTube.com
+Registrar:MarkMonitor Inc.
+WHOIS Server:whois.markmonitor.com
+Referral URL:http://www.markmonitor.com
+Created:2/15/2005
+Updated:1/14/2026
+Expires:2/15/2027
+Nameservers
+Hostname	IP Address
+ns1.google.com	216.239.32.10
+ns2.google.com	216.239.34.10
+ns3.google.com	216.239.36.10
+ns4.google.com	216.239.38.10

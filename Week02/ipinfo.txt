@@ -1,0 +1,40 @@
+1. DOMAIN NAME: AMAZON.COM
+IP ADDRESS: 98.82.161.185
+Location:	Ashburn, Virginia, United States
+AS :	       AS14618
+AS name	 :     amazon.com Inc. 
+
+
+
+
+2.DOMAIN NAME: BBC.COM
+   IP ADDRESS: 151.101.0.81
+   Fastly Inc.
+   Location	San Francisco, California, United States
+   AS	        AS54113
+   AS name	Fastly Inc.
+
+
+
+3. DOMAIN NAME: ADOBE.COM
+   IP ADDRESS : 96.16.53.159
+   Akamai International Bv
+ Location      Haarlem, Noord-Holland, Netherlands
+ AS	        AS20940
+ AS name	Akamai International Bv
+
+
+
+4. DOMAIN NAME: ZOOM.US
+   IP ADDRESS: 170.114.52.2
+   Cloudflare  London LLC
+   Location	San Jose, California, United States
+   AS	       AS209242
+   AS name	Cloudflare London LLC
+
+5. DOMAIN NAME : LINKEDIN.COM
+   IP ADDRESS: 150.171.22.12
+   Microsoft Corporation
+   Location	Redmond, Washington, United States
+   AS	        AS8075
+   AS name	Microsoft Corporation

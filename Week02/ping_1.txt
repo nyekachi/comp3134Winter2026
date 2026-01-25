@@ -1,0 +1,40 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping spotify.com -w 10
+PING spotify.com (35.186.224.24) 56(84) bytes of data.
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=1 ttl=118 time=2.85 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=2 ttl=118 time=1.72 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=3 ttl=118 time=1.72 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=4 ttl=118 time=1.76 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=5 ttl=118 time=1.74 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=6 ttl=118 time=1.75 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=7 ttl=118 time=1.75 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=8 ttl=118 time=1.78 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=9 ttl=118 time=5.31 ms
+64 bytes from 24.224.186.35.bc.googleusercontent.com (35.186.224.24): icmp_seq=10 ttl=118 time=1.72 ms
+
+--- spotify.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 1.716/2.209/5.311/1.085 ms
+
+
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 216.239.32.106
+PING 216.239.32.106 (216.239.32.106) 56(84) bytes of data.
+64 bytes from 216.239.32.106: icmp_seq=1 ttl=110 time=24.2 ms
+64 bytes from 216.239.32.106: icmp_seq=2 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=3 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=4 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=5 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=6 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=7 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=8 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=9 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=10 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=11 ttl=110 time=23.2 ms
+64 bytes from 216.239.32.106: icmp_seq=12 ttl=110 time=23.2 ms
+64 bytes from 216.239.32.106: icmp_seq=13 ttl=110 time=23.0 ms
+64 bytes from 216.239.32.106: icmp_seq=14 ttl=110 time=23.1 ms
+64 bytes from 216.239.32.106: icmp_seq=15 ttl=110 time=23.0 ms
+^C
+--- 216.239.32.106 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14016ms
+rtt min/avg/max/mdev = 22.951/23.097/24.216/0.309 ms
