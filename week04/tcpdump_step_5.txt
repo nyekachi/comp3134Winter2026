@@ -1,0 +1,9 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -w lan_traffic.pcap -i eth0
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+
+ls
+^C1528 packets captured
+1529 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ls
+lan_traffic.pcap
