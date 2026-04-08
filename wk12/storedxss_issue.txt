@@ -1,0 +1,5 @@
+The app reads content from a file and shows it without checking if it is safe.
+
+Because of that, the script inside the file runs automatically when the page loads. It redirected me to another page.
+
+This is stored XSS because the script is saved first and then runs later when the page is opened.

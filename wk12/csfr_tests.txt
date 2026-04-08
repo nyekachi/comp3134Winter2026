@@ -1,0 +1,5 @@
+When I used csfr_form.php, the login worked because it sent the correct confirmation value from the session.
+
+When I used csfr.html, the login failed because the forged page did not have the correct confirmation value.
+
+This shows that checking the confirmation value helps stop CSRF attacks.

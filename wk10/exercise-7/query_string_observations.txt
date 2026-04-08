@@ -1,0 +1,11 @@
+1) Navigate to the form and type a valid English word. Write your observations.
+-The site accepts the input and returns a proper dictionary result page for the word. This shows the site is handling normal user input correctly.
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+-The site does not execute anything. It just shows that there is no exact definition was found or suggests a similar words.
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+-When I entered the script into the form, the website blocked access completely. This shows that the site has strong security measures in place to detect and prevent malicious input like script injection.
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observation
+-When I added the script section in the URL, the script did not run. The website blocked access. This shows me that the site is validating and filtering input from query strings to prevent script injection.

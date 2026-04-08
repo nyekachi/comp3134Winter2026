@@ -1,0 +1,7 @@
+What you see on the browser(the issue)
+-Shows that the application is not properly checking or validating user input. Even when the input is encoded, the system still processes it and allows access to other directories.
+
+
+What sensitive information is given by this page
+-File system access
+-Directory structure

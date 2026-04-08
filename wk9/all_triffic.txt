@@ -1,0 +1,69 @@
+Command used: sudo tcpdump -i any -w all_traffic_$(date +%Y%m%d_%H%M).pcap
+all_traffic_20260408_0143.pcap
+
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r all_traffic_20260408_0143.pcap
+reading from file all_traffic_20260408_0143.pcap, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144
+Warning: interface names might be incorrect
+01:43:15.696035 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 4219698189:4219698257, ack 2914608300, win 521, length 68
+01:43:15.696167 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 68:104, ack 1, win 521, length 36
+01:43:15.702552 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 251, length 36
+01:43:15.702732 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 104:140, ack 37, win 521, length 36
+01:43:15.702987 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 140:184, ack 37, win 521, length 44
+01:43:15.703168 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 184:308, ack 37, win 521, length 124
+01:43:15.706259 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 104, win 250, length 0
+01:43:15.712772 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 308, win 255, length 0
+01:43:15.733501 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 308, win 255, length 36
+01:43:15.733680 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 308:344, ack 73, win 521, length 36
+01:43:15.764517 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 344, win 255, length 36
+01:43:15.764704 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 344:380, ack 109, win 521, length 36
+01:43:15.796268 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 109:145, ack 380, win 255, length 36
+01:43:15.796431 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 380:416, ack 145, win 521, length 36
+01:43:15.827204 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 145:181, ack 416, win 255, length 36
+01:43:15.827386 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 416:452, ack 181, win 521, length 36
+01:43:15.858720 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 181:217, ack 452, win 255, length 36
+01:43:15.858918 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 452:488, ack 217, win 521, length 36
+01:43:15.890544 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 217:253, ack 488, win 255, length 36
+01:43:15.890753 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 488:524, ack 253, win 521, length 36
+01:43:15.922523 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 253:289, ack 524, win 255, length 36
+01:43:15.922685 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 524:560, ack 289, win 521, length 36
+01:43:15.953287 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 289:325, ack 560, win 255, length 36
+01:43:15.953562 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 560:596, ack 325, win 521, length 36
+01:43:15.984563 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 325:361, ack 596, win 254, length 36
+01:43:15.984781 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 596:632, ack 361, win 521, length 36
+01:43:16.016204 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 361:397, ack 632, win 254, length 36
+01:43:16.016406 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 632:668, ack 397, win 521, length 36
+01:43:16.047173 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 397:433, ack 668, win 254, length 36
+01:43:16.047315 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 668:704, ack 433, win 521, length 36
+01:43:16.078707 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 433:469, ack 704, win 254, length 36
+01:43:16.078874 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 704:740, ack 469, win 521, length 36
+01:43:16.109558 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 469:505, ack 740, win 254, length 36
+01:43:16.109730 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 740:776, ack 505, win 521, length 36
+01:43:16.140871 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 505:541, ack 776, win 254, length 36
+01:43:16.141074 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 776:812, ack 541, win 521, length 36
+01:43:16.172176 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 541:577, ack 812, win 254, length 36
+01:43:16.172393 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 812:848, ack 577, win 521, length 36
+01:43:16.210652 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 577:613, ack 848, win 253, length 36
+01:43:16.210803 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 848:884, ack 613, win 521, length 36
+01:43:16.235019 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 613:649, ack 884, win 253, length 36
+01:43:16.235184 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 884:920, ack 649, win 521, length 36
+01:43:16.265840 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 649:685, ack 920, win 253, length 36
+01:43:16.266022 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 920:956, ack 685, win 521, length 36
+01:43:16.296930 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 685:721, ack 956, win 253, length 36
+01:43:16.297129 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 956:992, ack 721, win 521, length 36
+01:43:16.328611 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 721:757, ack 992, win 253, length 36
+01:43:16.328788 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 992:1028, ack 757, win 521, length 36
+01:43:16.359810 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 757:793, ack 1028, win 253, length 36
+01:43:16.360073 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1028:1064, ack 793, win 521, length 36
+01:43:16.390583 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 793:829, ack 1064, win 253, length 36
+01:43:16.390731 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1064:1100, ack 829, win 521, length 36
+01:43:16.421689 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 829:865, ack 1100, win 252, length 36
+01:43:16.421892 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1100:1136, ack 865, win 521, length 36
+01:43:16.453670 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 865:901, ack 1136, win 252, length 36
+01:43:16.453829 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1136:1172, ack 901, win 521, length 36
+01:43:16.484270 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 901:937, ack 1172, win 252, length 36
+01:43:16.484441 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1172:1208, ack 937, win 521, length 36
+01:43:16.516267 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 937:973, ack 1208, win 252, length 36
+01:43:16.516421 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1208:1244, ack 973, win 521, length 36
+01:43:16.546666 eth0  In  IP lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 973:1009, ack 1244, win 252, length 36
+01:43:16.546821 eth0  Out IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > lnsm4-toronto63-142-122-82-225.internet.virginmobile.ca.49529: Flags [P.], seq 1244:1280, ack 1009, win 521, length 36

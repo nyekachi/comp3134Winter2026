@@ -1,0 +1,5 @@
+HTML comments are visible in the browser source code, which can expose sensitive information like developer names or IDs.
+
+To fix this, I replaced HTML comments with PHP comments. PHP comments are processed on the server and are not visible to users.
+
+This helps protect sensitive information from being exposed.

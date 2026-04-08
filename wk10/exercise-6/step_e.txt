@@ -1,0 +1,7 @@
+To fix the problem, I would validate the user input before scanning the path.
+
+First, I would use basename() so the user cannot move outside the html directory using ../ or encoded versions of it.
+
+Second, I would use file_exists() to make sure the folder actually exists before trying to open it. This prevents warning messages and stops the page from exposing server details.
+
+I also used is_dir() to make sure the input is a directory and not a file. As an extra check, I blocked filenames with dots so users cannot try to pass file names.

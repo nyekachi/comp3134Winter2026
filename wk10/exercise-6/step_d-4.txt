@@ -1,0 +1,7 @@
+What you see on the browser(the issue)
+-The application allows directory traversal using "../" which lets users move outside the web directory. This exposes system folders such as lib, mail, and tmp.
+
+What sensitive information is given by this page
+-Server directory structure
+-System folders and files
+-Potential confidential files

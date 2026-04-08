@@ -1,0 +1,6 @@
+What you see on the browser(the issue)
+-The application looked if "hello" was there and tried to scan it as a directory without checking if it exists which caused errors when it was invalid.
+
+What sensitive information is given by this page
+-Server file paths (/var/www/html)
+-Error messages that expose backend details
